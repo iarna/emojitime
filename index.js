@@ -1,5 +1,5 @@
 "use strict"
-
+var crypto = require('crypto')
 var now = new Date()
 
 var clock = {
@@ -63,5 +63,8 @@ module.exports = function () {
     if (++ hour >= 12) hour = 0
     min = 0
   }
+  var random = crypto.pseudoRandomBytes(2)
+  var value = (random[0] + random[1] * 256) % 1000
+  if (value===0) return '👻'
   return clock[hour][min]
 }

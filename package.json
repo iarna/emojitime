@@ -1,5 +1,5 @@
 {
-  "name": "emojitime",
+  "name": "@iarna/emojitime",
   "version": "1.0.0",
   "description": "A command line toollet to print the time as an emoji",
   "main": "index.js",
