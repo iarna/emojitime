@@ -3,9 +3,7 @@
   "version": "1.0.1",
   "description": "A command line toollet to print the time as an emoji",
   "main": "index.js",
-  "bin": {
-    "emojitime": "cli.js"
-  },
+  "bin": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
