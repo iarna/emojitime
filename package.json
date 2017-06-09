@@ -8,5 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rebecca Turner <me@re-becca.org>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "files": [
+    "index.js",
+    "cli.js"
+  ]
 }
